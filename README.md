@@ -13,6 +13,24 @@ and let us know what you have in your mind for it :)
 ### Installation
     > pip install -r requirements.txt
     > python wufu.py
+### Usage
+
+    banner            Reload/change banner
+    clear             clears the screen
+    execute           Execute a fuzzer/module
+    help              List available commands with "help" or detailed help with "help cmd".
+    info              Info on a fuzzer/module
+    main              Return to main
+    processes         Listing all process running
+    quit              quit wufu
+    reload            Reloading Module during development/glitch
+    search            Will search if module exists
+    set               Sets option for a fuzzer/module
+    show              Show fuzzers or options
+    use               Use a fuzzer/module
+### How to develop module/fuzzer?
+###### Check out "template.py" inside lib/fuzzers dir,
+###### A complete documentation will be provided once we able to make stable release :)
 ### NOTE :
   ##### WE mainly focused on windows testing, so if something didn't work in linux.. please dont raise issue for it :)
   ### Known Bugs
