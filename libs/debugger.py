@@ -65,11 +65,3 @@ def handler(event):
             event.get_process().kill()
 
 
-
-debug = Debug( handler, bKillOnExit = True )
-pid = int(pid])
-try:
-    debug.attach( pid )
-    debug.loop()
-finally:
-    debug.stop()
